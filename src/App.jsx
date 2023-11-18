@@ -1,12 +1,12 @@
 function App() {
 
   return (
-    <div className="bg-purple-300 py-4 px-4 flex flex-col h-screen justify-center items-center	">
-      <div className=" h-3/5	w-2/5		bg-purple-600 flex justify-center items-center">
-        <div className="bg-white h-1/4 w-1/4 m-8	"></div>
-        <div className="bg-white h-1/4 w-1/4 m-8	"></div>
-        <div className="basis-1/2 bg-white h-1/4 w-1/4 m-8	"></div>
-      </div>
+    <div className="bg-purple-300  py-4 px-4 flex flex-row h-screen flex-wrap		justify-center">
+            <div className=" h-64		w-64	bg-purple-600 m-4	"></div>
+            <div className=" h-64		w-64	bg-purple-600 m-4	"></div>
+            <div className=" h-64		w-64	bg-purple-600 m-4	"></div>
+            <div className=" h-64		w-64	bg-purple-600 m-4	"></div>
+            <div className=" h-64		w-64	bg-purple-600 m-4	"></div>
     </div>
   )
 }
