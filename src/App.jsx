@@ -30,8 +30,15 @@ const handleChangeTheme = () => {
           <div className="px-3	py-3 hover:bg-purple-600 rounded dark:hover:bg-purple-600 ">Mas cosas</div>
         </nav>
       </header>
-            <button className="px-4 py-2 inline-block bg-purple-300 rounded m-4 text-white	hover:bg-purple-400 dark:bg-purple-600 dark:hover:bg-purple-300" 
+      <main className="flex ">
+        <div className="w-2/4	h-12	bg-purple-400 m-8	flex items-center  justify-center text-lg">Imagnes de gatitos</div>
+        <div className="w-2/4	h-12	bg-purple-400 m-8	flex items-center  justify-center text-lg">Imagnes de cconejos</div>
+
+
+        <button className="px-4 py-2 inline-block bg-purple-300 rounded m-8	 text-white	hover:bg-purple-400 dark:bg-purple-600 dark:hover:bg-purple-300" 
             onClick={handleChangeTheme}>Theme changes</button>
+      </main>
+            
 
     </div>
   )
