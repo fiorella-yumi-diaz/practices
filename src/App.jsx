@@ -31,7 +31,14 @@ const handleChangeTheme = () => {
         </nav>
       </header>
       <main className="flex ">
-        <div className="w-2/4	h-12	bg-purple-400 m-8	flex items-center  justify-center text-lg">Imagnes de gatitos</div>
+        <div className="w-2/4		bg-purple-400 m-8	flex items-center flex-col justify-center text-lg">
+          <h3>practicando flex blox</h3>
+          <div className="bg-red-500  w-5/12 h-28 py-1 px-1 flex  items-stretch">
+            <div className="bg-orange-200 w-4 h-4"></div>
+            <div className="bg-orange-300 w-4 h-4 self-auto"></div>
+            <div className="bg-orange-400 w-4 h-4"></div>
+          </div>
+        </div>
         <div className="w-2/4	h-12	bg-purple-400 m-8	flex items-center  justify-center text-lg">Imagnes de cconejos</div>
 
 
